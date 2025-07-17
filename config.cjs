@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const config = {
   // 🧠 Session & Identity
-  SESSION_ID: process.env.SESSION_ID || "POPKID;;;WooxgQJL#vpGXPrPUS2coD7DDh0se19-rLvH6dyEJ84FSGxKRUgE",
+  SESSION_ID: process.env.SESSION_ID || "POPKID;;;ighCBZDK#uHV-YNMnwPs4ZS6InXIwMjjXQ_KSG8L1DPGfA2Is0is",
   PREFIX: process.env.PREFIX || '.',
   BOT_NAME: process.env.BOT_NAME || "POPKID GLE",
   BOT: process.env.BOT || "hello 👋",
