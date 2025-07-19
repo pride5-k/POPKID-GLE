@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const config = {
   // 🧠 Session & Identity
-  SESSION_ID: process.env.SESSION_ID || "POPKID;;;ighCBZDK#uHV-YNMnwPs4ZS6InXIwMjjXQ_KSG8L1DPGfA2Is0is",
+  SESSION_ID: process.env.SESSION_ID || "POPKID;;;zg5WEC4R#Mhcipd6GAk4ZVF_QcjmzNmVyWeely-qe2ty8djSOoz0",
   PREFIX: process.env.PREFIX || '.',
   BOT_NAME: process.env.BOT_NAME || "POPKID GLE",
   BOT: process.env.BOT || "hello 👋",
@@ -24,25 +24,25 @@ const config = {
   AUTO_BIO: process.env.AUTO_BIO === 'true',
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === 'true',
   AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS === 'true',
-  AUTO_STICKER: process.env.AUTO_STICKER === 'true',
-  AUTO_READ: process.env.AUTO_READ === 'true',
-  AUTO_TYPING: process.env.AUTO_TYPING === 'true',
+  AUTO_STICKER: process.env.AUTO_STICKER === 'false',
+  AUTO_READ: process.env.AUTO_READ === 'false',
+  AUTO_TYPING: process.env.AUTO_TYPING === 'false',
   AUTO_RECORDING: process.env.AUTO_RECORDING === 'true',
-  AUTO_REACT: process.env.AUTO_REACT === 'true',
+  AUTO_REACT: process.env.AUTO_REACT === 'false',
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === 'true',
   AUTO_BLOCK: process.env.AUTO_BLOCK !== 'false', // true by default
 
   // 📦 Extra Features
-  ANTI_LEFT: process.env.ANTI_LEFT === 'true',
+  ANTI_LEFT: process.env.ANTI_LEFT === 'false',
   MASS_TARGET_JID: '254111385747@s.whatsapp.net',
-  ANTILINK: process.env.ANTILINK === 'true',
-  ANTI_DELETE: process.env.ANTI_DELETE === 'true',
+  ANTILINK: process.env.ANTILINK === 'false',
+  ANTI_DELETE: process.env.ANTI_DELETE === 'false',
   CHAT_BOT: process.env.CHAT_BOT === 'true',
-  CHAT_BOT_MODE: process.env.CHAT_BOT_MODE || "public",
+  CHAT_BOT_MODE: process.env.CHAT_BOT_MODE || "inbox",
   LYDEA: process.env.LYDEA === 'true',
   REJECT_CALL: process.env.REJECT_CALL === 'true',
   NOT_ALLOW: process.env.NOT_ALLOW !== 'false',
-  BLOCK_UNKNOWN: process.env.BLOCK_UNKNOWN === 'true',
+  BLOCK_UNKNOWN: process.env.BLOCK_UNKNOWN === 'false',
 
   // 🛠 Other
   MODE: process.env.MODE || "public",
